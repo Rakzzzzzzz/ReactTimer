@@ -1,0 +1,5 @@
+:root{
+	--grey:#333333;
+	--nav-background: var(--grey);
+	--nav-text-color:white;
+}
