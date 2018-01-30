@@ -24,8 +24,10 @@ module.exports = {
     alias:{
       Main: 'app/components/Main.jsx',
       applicationStyles:'app/styles/app.css',
-      Navigation:'app/components/Navigation.jsx'
-      
+      Navigation:'app/components/Navigation.jsx',
+      Clock:'app/components/Clock.jsx',
+      Countdown:'app/components/CountDown.jsx'
+
     },
     extensions: ['', '.js', '.jsx']
   },
@@ -33,12 +35,12 @@ module.exports = {
     loaders: [
       {
         loader: 'babel-loader',
-        
-        
+
+
         query: {
           presets: ['react', 'es2015']
         },
-        test: /\.jsx?$/, 
+        test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/
       }
     ]
